@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Java Developer Portfolio">
+  <title>Java Developer Portfolio</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="img/favicon.ico">
+  <head>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "m3fda-1hQOFD-ZnxW",
+      });
+   })();
+</script>
+<script src="assets/js/main.js"></script>
+  </head>
+  
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <div class="logo">Dev<span>Portfolio</span></div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm <span>Pratik Khadka K C</span></h1>
+      <h2>Java Developer</h2>
+      <p>I specialize in building high-performance, scalable Java applications.</p>
+      <a href="#projects" class="btn">View Projects</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="assets/img/pratik.jpg" alt="Profile Picture">
+      <p>
+        I'm a passionate Java developer with 5 years of experience in developing backend systems and enterprise-level applications. I enjoy solving challenging problems and learning new technologies.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill">Java</div>
+      <div class="skill">Spring Boot</div>
+      <div class="skill">Hibernate</div>
+      <div class="skill">MySQL</div>
+      <div class="skill">Maven</div>
+      <div class="skill">Git</div>
+      <div class="skill">REST APIs</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project">
+        <img src="assets/img/work3.png" alt="Project 1">
+        <h3>Inventory Management System</h3>
+        <p>A robust system built with Java and Spring Boot to manage small to large scale agricultural industries.</p>
+        <a href="https://sajilokrishi.com" class="btn">View Details</a>
+      </div>
+      <!-- Add more projects as needed -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <input type="text" id="subject" placeholder="Subject" required>
+      <textarea placeholder="Your Message" id="message" required></textarea>
+      <button type="submit" onclick="sendEmail()">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Pratik Khadka K C</p>
+  </footer>
+</body>
+</html>
