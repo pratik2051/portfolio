@@ -34,8 +34,10 @@ function sendEmail() {
       .then(function(response) {
           console.log('Email sent successfully!', response.status, response.text);
           document.getElementById('status').innerText = 'Email sent successfully!';
+          alert("sent succesfully");
       }, function(error) {
           console.error('Failed to send email:', error);
           document.getElementById('status').innerText = 'Failed to send email. Please try again.';
+          alert("Failed please try again")
       });
 }
