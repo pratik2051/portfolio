@@ -17,7 +17,7 @@
     }
 
     body {
-      background-color: #f4f4f9;
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
       color: #333;
       line-height: 1.6;
     }
@@ -31,11 +31,12 @@
       position: sticky;
       top: 0;
       z-index: 1000;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     }
 
     .logo {
-      font-size: 1.5rem;
-      font-weight: 600;
+      font-size: 1.8rem;
+      font-weight: 700;
       color: white;
     }
 
@@ -66,8 +67,19 @@
     }
 
     .hero-content h1 {
-      font-size: 2.5rem;
+      font-size: 3rem;
       margin-bottom: 1rem;
+    }
+
+    .hero-content h2 {
+      font-size: 1.8rem;
+      color: #00416A;
+    }
+
+    .hero-content p {
+      font-size: 1.1rem;
+      margin: 1rem auto;
+      max-width: 600px;
     }
 
     .hero-content span {
@@ -103,7 +115,13 @@
     .about-container img {
       width: 250px;
       border-radius: 50%;
-      border: 4px solid #00416A;
+      border: 5px solid #00416A;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    .about-container p {
+      max-width: 600px;
+      font-size: 1.1rem;
     }
 
     .skills-list {
@@ -119,6 +137,7 @@
       color: white;
       border-radius: 8px;
       font-weight: 500;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
       transition: background 0.3s ease, transform 0.3s ease;
     }
 
@@ -187,6 +206,7 @@
       text-align: center;
       padding: 1rem;
       font-size: 0.9rem;
+      box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
     }
   </style>
 </head>
@@ -205,7 +225,7 @@
     <div class="hero-content">
       <h1>Hello, I'm <span>Pratik Khadka K C</span></h1>
       <h2>Web Developer</h2>
-      <p>I specalize building high-performance, scalable Java applications. </p>
+      <p>I specialize in building high-performance, scalable Java applications.</p>
       <a href="#projects" class="btn">View Projects</a>
       <a href="assets/docs/Pratik_CV.pdf" class="btn" download>Download CV</a>
     </div>
@@ -216,7 +236,7 @@
     <div class="about-container">
       <img src="assets/img/pratik.jpg" alt="Profile Picture">
       <p>
-        I am passionate about developing backend systems and enterprise-level applications. I enjoy solving challenging problems and learning new technologies.  I have worked as an intern juniorDeveloper in javaSpringboot. I am interested about problem solving and Coding. I am interested about backend systems especially built in Java. 
+        I am passionate about developing backend systems and enterprise-level applications. I enjoy solving challenging problems and learning new technologies. I have worked as a junior developer intern in Java Spring Boot. I love backend systems, especially those built with Java, and am always eager to grow and collaborate on innovative projects.
       </p>
     </div>
   </section>
